@@ -12,8 +12,11 @@ https://blog.csdn.net/luoyayun361/article/details/104671603
 4. requests.post("http://123.207.9.26:5000/health", json ={"mBP":"1111", "mBH":"2222"});
 
 emqx 安装命令
-sudo apt install curl
-curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
-sudo apt-get install emqx
-sudo systemctl start emqx
+   1.sudo apt install curl
+   
+   2.curl -s https://assets.emqx.com/scripts/install-emqx-deb.sh | sudo bash
+
+   3.sudo apt-get install emqx
+
+   4.sudo systemctl start emqx
    
